@@ -1,0 +1,16 @@
+# Parameters for task sequencer
+# Remember that there might be other important constants that can only be changed from the src code.
+
+task_sequencer:
+
+  ################## PREGRASP AND GRASP TRANSFORM ##############################
+  # Transform from world to grasp pose frame (xyzrpy) [got it from: rosrun tf tf_echo single_yumi_base_link grasp_link] (DEFAULT)
+  grasp_transform: [0.509, 0.000, 0.327, -3.107, -1.570, -0.034]
+
+  #  Relative Transform from grasp pose frame to pre-grasp pose frame (xyzrpy)
+  pre_grasp_transform: [0.0, 0.0, -0.04, 0.0, 0.0, 0.0]
+
+  ################## HOME JOINTS ##############################################
+
+  home_joints: [0.00012277839705010507, 0.15466287615651453, -0.00015621422752065683, 0.5466351455198479, 0.00014351979743043586, 0.8698772571422699, 1.650497553118413e-05]
+  joint_position_A : [0.00012277839705010507, 0.15466287615651453, -0.00015621422752065683, 0.5466351455198479, 0.00014351979743043586, 0.8698772571422699, 1.650497553118413e-05]

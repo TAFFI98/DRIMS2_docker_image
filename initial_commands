@@ -1,0 +1,6 @@
+source devel/setup.bash
+roslaunch irim_ss_pkg yumi_gazebo.launch
+
+ roslaunch depthai_ros_driver camera.launch
+ 
+
